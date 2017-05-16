@@ -591,6 +591,7 @@ describe("the JavaScript language", function() {
           functions.push(function() {
             return i;
           });
+          console.log('array',functions);
         }
         return functions;
       }
